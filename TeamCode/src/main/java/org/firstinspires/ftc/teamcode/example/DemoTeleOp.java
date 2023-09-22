@@ -20,7 +20,7 @@ public class DemoTeleOp extends LinearOpMode {
 
         waitForStart();
 
-        while( opModeIsActive() && !gamepad2.a ) {
+        while( opModeIsActive() ) {
 
             double leftStickY = -gamepad1.left_stick_y; // Remember, this is reversed!
             double leftStickX = gamepad1.left_stick_x * 1.1; // Counteract imperfect strafing

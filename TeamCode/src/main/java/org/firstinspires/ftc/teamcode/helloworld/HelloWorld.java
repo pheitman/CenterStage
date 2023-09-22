@@ -32,5 +32,9 @@ public class HelloWorld extends LinearOpMode {
         while( opModeIsActive() ) {
 
         }
+
+        telemetry.addData("Stopped", "Bye!" );
+        telemetry.update();
+
     }
 }
